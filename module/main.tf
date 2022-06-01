@@ -1,6 +1,3 @@
-# Instructions on how how to create RDS instance 
-### Please copy paste below code 
-```
 module rds {
     source = "../"
     region               = "us-east-1"
@@ -15,11 +12,6 @@ module rds {
         Name = "main"
     }
 }
-```
-### If you want the output 
-```
-
 output endpoint {
     value = module.rds.endpoint
 }
-```
